@@ -1,0 +1,46 @@
+---
+title: "Project"
+author: "akula"
+date: "6/16/2021"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+Project Introduction. The data
+
+```{r}
+data(iris)
+names(iris)
+head(iris)
+```
+
+## Explore the data
+
+Checking sepal length differences in difference species
+
+```{r}
+boxplot(iris$Sepal.Length~iris$Species)
+```
+
+
+## Models
+
+1. The first question we are trying to answer is...
+
+2. The second qestion we are trying to answer is...
+
+## Results
+
+- The first model gave us...
+
+- The second model gave us...
+
+$Y=\beta_0+\beta_1X$
+
+
+
